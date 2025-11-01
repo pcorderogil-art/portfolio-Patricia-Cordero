@@ -3,17 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Patricia-Cordero</title>
-  <!-- Google Fonts para tipografía moderna -->
+  <title>Portfolio - Patricia Cordero</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <!-- Vinculamos el CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
-
-
-  <!-- Header: barra de navegación -->
-   <div class="seccion1">
-  <header>
+<div>
+  <!-- Navegación -->
+  <div class="seccion1">
+    <header>
     <nav>
       <ul>
         <li><a href="#hero">Inicio</a></li>
@@ -23,11 +20,11 @@
         <li><a href="#other-contact">Otros Métodos de Contacto</a></li>
       </ul>
     </nav>
-  </header>
-</div>
+  </h>
+  </div>
 
-  <!-- Hero: sección principal de presentación -->
-   <div class="seccion2">
+  <!-- Hero -->
+   <div class="seccion2"></div>
   <section id="hero">
     <div class="hero-content">
       <h1>Hola, soy Patricia</h1>
@@ -37,87 +34,93 @@
   </section>
 </div>
 
-  <!-- About: información sobre ti -->
+  <!-- Sobre mí -->
    <div class="seccion3">
   <section id="about">
     <h2>Sobre mí</h2>
     <div class="about-content">
       <img src="assets/images/fto paty.png" alt="Paty" class="profile-pic">
-      <p>Soy Patricia, estudiante de Microinformática y redes, con una pasión desbordante por la tecnología. Desde que empecé me sumergí de lleno en el mundo de la ofimática, montaje y mantenimiento, redes, sistemas operativos, WordPress, HTML y CSS, entre otros y… ¡me encantó! Soy una persona curiosa, siempre dispuesta a aprender cosas nuevas y me emociona la idea de formar parte de un equipo donde pueda poner en práctica mis conocimientos y seguir creciendo como profesional. Estoy buscando mi primera oportunidad laboral en el sector tecnológico y estoy lista para asumir nuevos desafíos. ¡Me encantaría demostrar lo que puedo hacer!</p>
+      <p>Soy Patricia, estudiante de Microinformática y Redes, apasionada por la tecnología. Me encanta aprender sobre ofimática, redes, sistemas operativos, WordPress, HTML y CSS. Busco mi primera oportunidad profesional en el sector tecnológico, lista para asumir nuevos desafíos y demostrar mis capacidades.</p>
     </div>
   </section>
-</div>
+   </div>
 
-  <!-- Projects: muestra tus trabajos -->
-    <div class="seccion4">
+  <!-- Proyectos -->
+   <div class="seccion4">
   <section id="projects">
-    <h2>Redes locales</h2>
+    <h2>Proyectos</h2>
     <class="project-cards">
       <div class="card">
-        <img src="assets/icons/png-transparent-computer-network-internet-computer-computer-network-electronics-cloud.png" alt="Proyecto 1">
+        <img src="assets/icons/png-transparent-computer-network-internet-computer-computer-network-electronics-cloud.png" alt="Proyecto de red local">
         <h3>Configuración de una red local</h3>
-        <p></p>
+        <p><p></p>
         <a href="https://sites.google.com/view/patriciacorderogil/inicio" class="btn">Ver proyecto</a>
       </div>
-      <h2>Página Web</h2>
+
       <div class="card">
-        <img src="assets/icons/descarga.jpg" alt="Proyecto 2">
-        <p></p>
-      <a href="https://pcorderogil-art.github.io/portfolio-Paty/" class="btn">Ver proyecto</a>
+        <img src="assets/icons/descarga.jpg" alt="Proyecto web">
+        <h3>Página Web</h3>
+        <a href="https://pcorderogil-art.github.io/portfolio-Paty/" class="btn">Ver proyecto</a>
+      </div>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contact" class="seccion5">
+    <div class="card form-card">
+      <h2>Envíame un mensaje</h2>
+      <p>Rellena el formulario y te responderé lo antes posible.</p>
+
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="tu@ejemplo.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Comentarios</label>
+          <textarea id="message" name="message" placeholder="Escribe tu mensaje..." required></textarea>
+        </div>
+
+        <div class="actions">
+          <button type="reset" class="btn-secondary">Limpiar</button>
+          <button type="submit" class="btn-primary">Enviar</button>
+        </div>
+      </form>
     </div>
   </section>
-</div>
-  <!-- Contact: formulario de contacto -->
-   <div class="seccion5">
-  <section id="contact">
-    <div class="contenedor-contacto">
-      <form class="Formulario de contacto" action="pcorderogil@gmail.com" method="post" enctype="text/plain">
-        <h2>Envíame un mensaje</h2>
-<div class="campo">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" required>
-</div>
-<div class="campo"></div>
-      <label for="email">Correo electrónico:</label>
-      <input type="email" id="email" name="email" required>
-</div>
-<div class="campo">
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-</div>
-<div class="campo">
-    <button type="submit">Enviar</button>
-</div>
-  </form>
-  <div class="seccion6">
-  <section id="other-contact">
-<div class="Other-contact">
-  <h2>Otros métodos de contacto</h2>
-  <p><strong>Teléfono:</strong> 635149168</p>
-  <p><strong>Email:</strong> pcorderogil@gmail.com</p>
-<div class="redes-sociales">
-  <a href="https://www.linkedin.com/in/patricia-undefined-26a14a26b" target="_blank">LinkedIn</a>
-  <a href="https://github.com/pcorderogil" target="_blank">GitHub</a>
-</div>
-</div>
-</section>
-</div>
-</div>
 
+  <!-- Otros métodos de contacto -->
+  <section id="other-contact" class="seccion6">
+    <div class="other-contact">
+      <h2>Otros métodos de contacto</h2>
+      <p><strong>Teléfono:</strong> 635149168</p>
+      <p><strong>Email:</strong> pcorderogil@gmail.com</p>
+      <div class="redes-sociales">
+        <a href="https://www.linkedin.com/in/patricia-undefined-26a14a26b" target="_blank">LinkedIn</a>
+        <a href="https://github.com/pcorderogil" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
 
-<script>
-  const form = document.getElementById('contact-form');
-  if (form) {
+  <!-- Footer -->
+  <footer class="seccion7">
+    <p>Gracias por visitar mi portfolio. Estoy emocionada por las oportunidades que el futuro me depara.</p>
+    <p>&copy; 2025 Patricia Cordero. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Validación del formulario -->
+  <script>
+    const form = document.getElementById('contactForm');
     form.addEventListener('submit', e => {
       e.preventDefault();
       alert('¡Mensaje enviado! Pronto me contactaré contigo.');
       form.reset();
-    })
-  }
-</script>
-<div class="seccion7">
-<footer>
-    <p>Gracias por visitar mi portfolio. Estoy emocionada por las oportunidades que el futuro me depara.</p>
-    <p>&copy; 2025 Patricia Cordero. Todos los derechos reservados.</p>
-  </footer>
-</div>
+    });
+  </script>
+</body>
+</html>
