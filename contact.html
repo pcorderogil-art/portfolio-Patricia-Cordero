@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+< lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contacto - Paty</title>
+  <title>Formulario de contacto - Paty</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,58 +14,49 @@
         <li><a href="index.html">Inicio</a></li>
         <li><a href="about.html">Sobre mí</a></li>
         <li><a href="projects.html">Proyectos</a></li>
-        <li><a href="contact.html">Contacto</a></li>
+        <li><a href="contact.html">Formulario de contacto</a></li>
+        <li><a href="other-contact.html">Otros Métodos de Contacto</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-    <section id="contact">
-      <h2>Contacto</h2>
-      <form id="contact-form">
-        <div>
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" name="name" required>
-        </div>
-        <div>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div>
-          <label for="message">Mensaje:</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-        </div>
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
-  </main>
-  <script>
-    const form = document.getElementById('contact-form');
-    if(form){
-      form.addEventListener('submit', e => {
-        e.preventDefault();
-        alert('¡Mensaje enviado! Pronto me contactaré contigo.');form.reset();
-});
-    }
-  </script>
+</body>
+  <section id="contact">
+    <div class="contenedor-contacto">
+      <form class="Formulario de contacto" action="pcorderogil@gmail.com" method="post" enctype="text/plain">
+        <h2>Envíame un mensaje</h2>
 
-  <section class="other-contact">
-    <div class="container">
-      <h2>Formas de contacto</h2>
-      <ul>
-        <li>Email: pcorderogil@gmail.com</li>
-        <li>Teléfono: +34 635 149 168</li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/patricia-undefined-26a14a26b" target="_blank">linkedin.com/in/paty</a></li>
-      </ul>
-    </div>
-  </section>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
 
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+    
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>
+
+<script>
+  const form = document.getElementById('contact-form');
+  if (form) {
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      alert('¡Mensaje enviado! Pronto me contactaré contigo.');
+      form.reset();
+    })
+  }
   <footer>
     <p>Gracias por visitar mi portfolio. Estoy emocionada por las oportunidades que el futuro me depara.</p>
     <p>&copy; 2025 Patricia Cordero. Todos los derechos reservados.</p>
   </footer>
+</script>
 
 
-</body>
-</html>
+
+
 <link rel="stylesheet" href="css/style.css">
-<script src="js/main.js"></script>/
+<script src="js/main.js"></script>
+<link rel="index.html"/>
